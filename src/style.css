@@ -205,24 +205,11 @@ p {
 .floating {
   position: absolute;
   animation-name: floating;
-  -webkit-animation-name: floating;
   animation-duration: 5s;
-  -webkit-animation-duration: 5s;
   animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
 }
 
-@-moz-keyframes floating {
-  0% {
-    transform: translateY(0%) rotate(-85deg);
-  }
-  50% {
-    transform: translateY(100%) rotate(85deg);
-  }
-  100% {
-    transform: translateY(0%) rotate(-85deg);
-  }
-}
+
 
 @keyframes floating {
   0% {
@@ -235,30 +222,7 @@ p {
     transform: translateY(0%) rotate(-85deg);
   }
 }
-@-webkit-keyframes floating {
-  0% {
-    -webkit-transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(100%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-  }
-}
 
-@-moz-keyframes rotating {
-  0% {
-    transform: translateY(0%) rotate(-180deg);
-  }
-  50% {
-    transform: translateY(0%) rotate(180deg);
-  }
-  100% {
-    transform: translateY(0%) rotate(-180deg);
-  }
-}
-}
 
 @keyframes rotating {
   0% {
@@ -284,17 +248,6 @@ p {
 }
 
 
-@-moz-keyframes elevating {
-  0% {
-    transform: translateY(0%) rotate(0deg);
-  }
-  50% {
-    transform: translateY(13%) rotate(0deg);
-  }
-  100% {
-    transform: translateY(0%) rotate(0deg);
-  }
-}
 
 @keyframes elevating {
   0% {
@@ -320,9 +273,6 @@ p {
 }
 
 
-.hidden {
-  display: none;
-}
 
 .header {
   display: flex;

@@ -212,7 +212,17 @@ p {
   -webkit-animation-iteration-count: infinite;
 }
 
-
+@-moz-keyframes floating {
+  0% {
+    transform: translateY(0%) rotate(-85deg);
+  }
+  50% {
+    transform: translateY(100%) rotate(85deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(-85deg);
+  }
+}
 
 @keyframes floating {
   0% {
@@ -235,6 +245,19 @@ p {
   100% {
     -webkit-transform: translateY(0%);
   }
+}
+
+@-moz-keyframes rotating {
+  0% {
+    transform: translateY(0%) rotate(-180deg);
+  }
+  50% {
+    transform: translateY(0%) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(-180deg);
+  }
+}
 }
 
 @keyframes rotating {
@@ -261,6 +284,17 @@ p {
 }
 
 
+@-moz-keyframes elevating {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+  50% {
+    transform: translateY(13%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0%) rotate(0deg);
+  }
+}
 
 @keyframes elevating {
   0% {

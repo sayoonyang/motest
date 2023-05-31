@@ -107,11 +107,8 @@ p {
 .rotating {
   position: absolute;
   animation-name: rotating;
-  -webkit-animation-name: rotating;
   animation-duration: 5s;
-  -webkit-animation-duration: 5s;
   animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
 }
 .rotating.time{
   display: inline-block;
@@ -127,11 +124,8 @@ p {
 .elevating {
   position: absolute;
   animation-name: elevating;
-  -webkit-animation-name: elevating;
   animation-duration: 4s;
-  -webkit-animation-duration: 4s;
   animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
 }
 
 .elevating.cha1_1{
@@ -235,18 +229,6 @@ p {
     transform: translateY(0%) rotate(-180deg);
   }
 }
-@-webkit-keyframes rotating {
-  0% {
-    -webkit-transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-  }
-}
-
 
 
 @keyframes elevating {
@@ -258,17 +240,6 @@ p {
   }
   100% {
     transform: translateY(0%) rotate(0deg);
-  }
-}
-@-webkit-keyframes elevating {
-  0% {
-    -webkit-transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
   }
 }
 
